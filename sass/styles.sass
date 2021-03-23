@@ -37,10 +37,11 @@ body
         ul
             height: 100%
             @include mixins.flex-center
-
-            @include mixins.mobile   
             .presente
-                display: none
+                display: flexbox
+            @include mixins.mobile   
+                .presente
+                    display: none
 
             li
                 margin: 0 1rem

@@ -41,7 +41,12 @@ body ul {
   justify-content: center;
 }
 .header-navbar ul .presente {
-  display: none;
+  display: flexbox;
+}
+@media (max-width: 426px) {
+  .header-navbar ul .presente {
+    display: none;
+  }
 }
 .header-navbar ul li {
   margin: 0 1rem;
