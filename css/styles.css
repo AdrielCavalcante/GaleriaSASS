@@ -27,7 +27,7 @@ body ul {
 }
 @media (max-width: 426px) {
   .header {
-    padding: 1.1rem;
+    padding: 1rem;
   }
 }
 .header-brand {
@@ -40,10 +40,8 @@ body ul {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 426px) {
-  .header-navbar ul {
-    display: none;
-  }
+.header-navbar ul .presente {
+  display: none;
 }
 .header-navbar ul li {
   margin: 0 1rem;
@@ -239,6 +237,11 @@ body ul {
 footer {
   text-align: center;
   padding-bottom: 2rem;
+}
+@media (max-width: 426px) {
+  footer {
+    padding-bottom: 1rem;
+  }
 }
 footer p {
   font-weight: bold;

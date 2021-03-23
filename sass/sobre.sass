@@ -39,7 +39,7 @@ body
 
             @include mixins.mobile
                 display: none
-
+            
             li
                 margin: 0 1rem
                 text-transform: uppercase
@@ -66,11 +66,19 @@ body
 .sobre
     margin-bottom: 20px
 
+    @include mixins.mobile
+        margin-bottom: 150px
+
     &-title
         display: block
         margin-bottom: 20px
         margin-left: 100px
         font-size: 29pt
+
+        @include mixins.mobile
+            margin-left: 0
+            text-align: center
+
 
     &-textos
         display: inline-block
@@ -79,6 +87,14 @@ body
         font-size: 18pt
         width: 50%
         float: left
+
+        @include mixins.mobile
+            float: none
+            width: 90%
+            font-size: 15pt
+            margin: 0px 20px
+            text-align: justify
+
         p
             margin-bottom: 5px
         
@@ -89,6 +105,9 @@ body
     &-img 
         width: 20%
         display: inline-block
+
+        @include mixins.mobile
+            display: none
         img
             width: 400px
             height: 450px
@@ -97,6 +116,9 @@ body
 footer
     text-align: center
     padding-bottom: 2rem
+
+    @include mixins.mobile
+    padding-bottom: 1rem
 
     p
         font-weight: bold

@@ -27,7 +27,7 @@ body
     @include mixins.container
 
     @include mixins.mobile
-        padding: 1.1rem
+        padding: 1rem
 
     &-brand //.header-brand
         color: variables.$primary-color
@@ -38,7 +38,8 @@ body
             height: 100%
             @include mixins.flex-center
 
-            @include mixins.mobile
+            @include mixins.mobile   
+            .presente
                 display: none
 
             li
@@ -133,6 +134,9 @@ body
 footer
     text-align: center
     padding-bottom: 2rem
+
+    @include mixins.mobile
+        padding-bottom: 1rem
 
     p
         font-weight: bold
