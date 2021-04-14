@@ -94,7 +94,7 @@ body ul {
   margin: 0px 10px 0px 100px;
   color: #FFF;
   font-size: 18pt;
-  width: 50%;
+  width: 40%;
   float: left;
 }
 @media (max-width: 426px) {
@@ -120,11 +120,6 @@ body ul {
   .sobre-img {
     display: none;
   }
-}
-.sobre-img img {
-  width: 400px;
-  height: 450px;
-  border: 3px solid #414141;
 }
 
 footer {
